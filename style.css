@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    font-family: Arial, sans-serif;
+    background: #eef2f7;
+    color: #1e293b;
+}
+
+.card {
+    width: 100%;
+    max-width: 600px;
+    padding: 40px 28px;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.badge {
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 20px;
+    background: #dbeafe;
+    color: #1d4ed8;
+    font-size: 14px;
+}
+
+h1 {
+    margin: 24px 0 16px;
+    font-size: clamp(26px, 5vw, 36px);
+}
+
+.description {
+    color: #475569;
+    line-height: 1.6;
+}
+
+.details {
+    margin: 24px 0;
+    padding: 16px;
+    border-radius: 10px;
+    background: #f8fafc;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+button:focus-visible {
+    outline: 3px solid #1e293b;
+    outline-offset: 4px;
+}
+
+#message {
+    min-height: 24px;
+    margin-top: 20px;
+    color: #166534;
+    font-weight: bold;
+    line-height: 1.5;
+}
